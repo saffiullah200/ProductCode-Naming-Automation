@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>TriggerOnProductService</members>
+        <members>TriggerOnProductHandler</members>
+        <members>TriggerOnProductService_Test</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+     <members>TriggerOnProduct</members>
+        <name>ApexTrigger</name>
+    </types> 
+    <types>
+        <members>Product2.IsProductCodeGeneratedViaTrigger__c</members>
+        <members>Product2.ProductCodeF__c</members>
+        <name>CustomField</name>
+    </types>
+    <version>52.0</version>
+</Package>
